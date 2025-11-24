@@ -1,0 +1,66 @@
+body {
+    background-color: #e0f7fa; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin-top: 50px;
+}
+h1 {
+    color: #004d40;
+    border: 3px solid #004d40;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+}
+p {
+    font-size: 22px;
+    color: #333;
+}
+.signature {
+    color: #d35400;
+    font-weight: bold;
+    margin-top: 30px;
+}
+/* Style simple pour le pied de page */
+#pied-de-page {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #bbdefb; 
+    color: #1a237e;
+}
+/* NOUVEAUX STYLES DE STRUCTURE */
+#entete {
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: #ffccbc; 
+    padding: 10px;
+    border-radius: 5px;
+}
+#principal {
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: #ffffff; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+/* NOUVEAUX STYLES POUR LA NAVIGATION */
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+nav li {
+    display: inline-block; 
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none; 
+    color: #1a237e; 
+    font-weight: bold;
+}
+nav a:hover {
+    color: #d35400; 
+    border-bottom: 2px solid #d35400; 
+}
